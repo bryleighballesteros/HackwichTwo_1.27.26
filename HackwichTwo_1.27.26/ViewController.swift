@@ -9,22 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-// Test comment
-    @IBAction func preeMeButtonPressed(_ sender: UIButton) {
+    var one = "How"
+    var two = " are you?"
+    var three = " "
+    
+override func viewDidLoad() {
+    super.viewDidLoad()
+    // Do any additional setup afterloading the view.
+        three = one + two
+}
         
-        //code block
+//in class part
+
+    @IBAction func pressMe(_ sender: Any) {
         print("Hello World")
     }
     
+//problem Set
     
+    @IBAction func printMessage(_ sender: Any) {
+        print(three)
+    }
     
-    
-    
-
 }
-
